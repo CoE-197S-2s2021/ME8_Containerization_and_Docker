@@ -19,7 +19,7 @@ P.S. Since all of you will be working in the same Repository for each ME, please
 
 ### Activities
 
-Go through each of the following exercises 
+Go through each of the following exercises, these are very simple step-by-step guides on how to do each of the following. To prove that you did the exercises, attach a document containing screenshots from each activity showing your progress. The document doesn't have to be overly complicated, you can add comments/observations if you want to, just make sure that we can see that you did the activities. :)  
 
 1. Running and managing Docker containers and images
 
