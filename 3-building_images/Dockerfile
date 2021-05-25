@@ -1,9 +1,9 @@
 FROM ubuntu:16.04
-LABEL author="David Elner"
+LABEL author="Bela Coronel"
 
 ENV PING_TARGET "google.com"
 
-RUN apt-get update \
+RUN apt-get update \ 
     && apt-get install -y iputils-ping \
     && apt-get clean \
     && cd /var/lib/apt/lists && rm -fr *Release* *Sources* *Packages* \
