@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-LABEL author="David Elner"
+LABEL author="David Lanoy"
 
 ENV PING_TARGET "google.com"
 
@@ -10,3 +10,4 @@ RUN apt-get update \
     && truncate -s 0 /var/log/*log
 
 CMD ["sh", "-c", "ping $PING_TARGET"]
+
