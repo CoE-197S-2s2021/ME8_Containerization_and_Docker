@@ -105,7 +105,7 @@ To build Docker images from Dockerfiles, we use the `docker build` command. The 
     Running the following builds and tags the image:
 
     ```
-    $ docker build -t 'delner/ping' .
+    $ C
     Sending build context to Docker daemon    190kB
     Step 1/4 : FROM ubuntu:16.04
      ---> 6a2f32de169d

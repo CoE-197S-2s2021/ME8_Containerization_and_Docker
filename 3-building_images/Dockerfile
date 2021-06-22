@@ -10,3 +10,4 @@ RUN apt-get update \
     && truncate -s 0 /var/log/*log
 
 CMD ["sh", "-c", "ping $PING_TARGET"]
+
