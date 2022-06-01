@@ -9,4 +9,5 @@ RUN apt-get update \
     && cd /var/lib/apt/lists && rm -fr *Release* *Sources* *Packages* \
     && truncate -s 0 /var/log/*log
 
+
 CMD ["sh", "-c", "ping $PING_TARGET"]
